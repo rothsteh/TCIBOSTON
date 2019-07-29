@@ -1,0 +1,70 @@
+Input Schema
+
+{
+  "City": "Anywhere",
+  "Company": "ACME Corporation",
+  "Country": "USA",
+  "FirstName": "John",
+  "LastName": "Smith",
+  "OrderID": "71",
+  "ProductName": "MacBook Pro",
+  "State": "NY",
+  "StreetAddress": "234 Main Street",
+  "Zip": "11111"
+}
+Output Schemas
+
+{
+   "type":"object",
+   "properties":{
+      "Address":{
+         "type":"string"
+      },
+      "City":{
+         "type":"string"
+      },
+      "Company":{
+         "type":"string"
+      },
+      "Country":{
+         "type":"string"
+      },
+      "CustomerID":{
+         "type":"string"
+      },
+      "FirstName":{
+         "type":"string"
+      },
+      "LastName":{
+         "type":"string"
+      },
+      "State":{
+         "type":"string"
+      },
+      "Zip":{
+         "type":"string"
+      }
+   }
+}
+
+{
+   "type":"object",
+   "properties":{
+      "productID":{
+         "type":"string"
+      },
+      "productDesc":{
+         "type":"string"
+      },
+      "price":{
+         "type":"string"
+      },
+      "availableQty":{
+         "type":"string"
+      },
+      "productName":{
+         "type":"string"
+      }
+   }
+}
+
