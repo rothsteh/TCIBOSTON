@@ -1,0 +1,17 @@
+{
+   "type": "object",
+   "properties": {
+      "CustomerID": {
+         "type": "string",
+         "default": "2"
+      },
+      "ProductID": {
+         "type": "string",
+         "default": "1"
+      },
+      "Qty": {
+         "type": "string",
+         "default": "2"
+      }
+   }
+}
